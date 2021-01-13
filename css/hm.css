@@ -39,7 +39,7 @@
 }
 #navbar ul li a{
 	display: flex;
-	color:  #ff3300;
+	color: #ff3300;
 	padding: 3px; 22px;
 	text-decoration: none;
 
@@ -48,7 +48,7 @@
 #navbar::before{
 	content: "";
 	position: absolute;
-	background-color: green;
+	background-color: #ff3300;
 	top: 0px;
 	left: 0px;
 	height: 100%;
@@ -71,21 +71,23 @@
 }
 /* home (container) section */
 #container h1{
-	display: #ff3300;
+	display: block;
 	padding: 35px 350px;
 	margin: 30px -34px;
 	font-size: 3rem;
 	color: #ff3300;
 }
 
-.contain{
-	display: flex;
-	align-items: center;
-	position: absolute;
+p{
+	color: #ff3300;
+	text-align: center;
+	padding: 30px;
+	font-size: 1.5rem;
 }
+
 .name{
 	display: inline-block;
-	color: #ff3300;
+	color: black;
 	padding: 20px 40px;
 	margin: 10px 230px;
 	text-align: center;
@@ -94,7 +96,7 @@
 #container::before{
 	content: "";
 	position: absolute;
-	background: url(../images/gym.jpg) no-repeat center center/cover;
+	background: url(../images/girl.jpg) no-repeat center center/cover;
 	top: 102px;
 	left: 4px;
 	height: 100%;
